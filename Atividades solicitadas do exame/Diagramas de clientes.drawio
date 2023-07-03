@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-07-03T14:56:49.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0" etag="YUL4MNOxHs2noVWV4O5u" version="21.5.2" type="device">
+  <diagram name="Página-1" id="me1laX0bHIltnxQRzWV9">
+    <mxGraphModel dx="508" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wo1q24cNd0ytHgEPwjm9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DdiagUcfDGiYU_AQLuCv-1" target="wo1q24cNd0ytHgEPwjm9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DdiagUcfDGiYU_AQLuCv-1" value="&lt;font color=&quot;#ffffff&quot;&gt;PetShop&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="367" y="67" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DdiagUcfDGiYU_AQLuCv-3" value="&lt;h1 style=&quot;border-color: var(--border-color); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; margin: 0px 0px 5px; padding: 0px; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: 1; color: rgb(51, 51, 51);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;• &lt;span style=&quot;font-weight: 400;&quot;&gt;clientes&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="DdiagUcfDGiYU_AQLuCv-1" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wo1q24cNd0ytHgEPwjm9-8" value="&lt;font color=&quot;#ffffff&quot;&gt;Clientes&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="367" y="167" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wo1q24cNd0ytHgEPwjm9-9" value="&lt;h1 style=&quot;margin: 0px 0px 5px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: 1;&quot;&gt;&lt;font color=&quot;#080606&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;• id_&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;cliente&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wo1q24cNd0ytHgEPwjm9-8">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wo1q24cNd0ytHgEPwjm9-10" value="&lt;h1 style=&quot;border-color: var(--border-color); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; margin: 0px 0px 5px; padding: 0px; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: 1; color: rgb(51, 51, 51);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;• &lt;span style=&quot;font-weight: 400;&quot;&gt;nome&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wo1q24cNd0ytHgEPwjm9-8">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wo1q24cNd0ytHgEPwjm9-11" value="&lt;h1 style=&quot;border-color: var(--border-color); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; margin: 0px 0px 5px; padding: 0px; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: 1; color: rgb(51, 51, 51);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;• &lt;span style=&quot;font-weight: 400;&quot;&gt;endereco&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wo1q24cNd0ytHgEPwjm9-8">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wo1q24cNd0ytHgEPwjm9-12" value="&lt;h1 style=&quot;border-color: var(--border-color); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; margin: 0px 0px 5px; padding: 0px; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: 1; color: rgb(51, 51, 51);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;• &lt;span style=&quot;font-weight: 400;&quot;&gt;telefone&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wo1q24cNd0ytHgEPwjm9-8">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wo1q24cNd0ytHgEPwjm9-13" value="&lt;h1 style=&quot;border-color: var(--border-color); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; margin: 0px 0px 5px; padding: 0px; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: 1; color: rgb(51, 51, 51);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;• &lt;span style=&quot;font-weight: 400;&quot;&gt;email&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wo1q24cNd0ytHgEPwjm9-8">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
