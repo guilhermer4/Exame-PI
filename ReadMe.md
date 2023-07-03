@@ -1,3 +1,9 @@
 # Exame de Projeto Integrador
 
-Repositório para as atividades solicitadas. Tudo do projeto que foi feito antes se encontra na pasta "Projeto Patinhas" e o exame de projeto integrador se encontra na pasta "Atividades solicitadas do Exame...
+Repositório para as atividades solicitadas...
+
+
+
+• Atividades solicitadas do exame: O exame de projeto integrador
+
+• Projeto Patinhas: Tudo do projeto que foi feito antes
