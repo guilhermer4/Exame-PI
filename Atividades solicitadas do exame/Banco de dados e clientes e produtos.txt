@@ -1,0 +1,72 @@
+Criando o Banco de Dados:
+
+	CREATE DATABASE `Exame_PI_Guilherme` /*!40100 COLLATE 'utf8mb4_0900_ai_ci' */;
+
+
+
+
+Criando a tabela Clientes:
+
+	CREATE TABLE `Clientes` (
+	`id_cliente` INT(10) NOT NULL AUTO_INCREMENT,
+	`nome` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`endereco` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`telefone` INT(10) NOT NULL,
+	`email` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	PRIMARY KEY (`id_cliente`) USING BTREE
+     )
+     COLLATE='utf8mb4_0900_ai_ci'
+     ENGINE=InnoDB
+     ROW_FORMAT=DYNAMIC
+     AUTO_INCREMENT=32
+     ;
+
+
+
+
+Criando a tabela Produtos:
+
+	CREATE TABLE `Produtos` (
+	`id_produto` INT(10) NOT NULL AUTO_INCREMENT,
+	`nome` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`preco` DECIMAL(20,6) NULL DEFAULT NULL,
+	`descricao` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	PRIMARY KEY (`id_produto`) USING BTREE
+     )
+     COLLATE='utf8mb4_0900_ai_ci'
+     ENGINE=InnoDB
+     ROW_FORMAT=DYNAMIC
+     AUTO_INCREMENT=21
+     ;
+
+
+
+
+Inserindo os clientes:
+
+	INSERT INTO `Exame_PI_Guilherme`.`Clientes` (`id_cliente`, `nome`, `endereco`, `telefone`, `email`) VALUES (1, 'Carlos Silva', 'Rua das Flores', 987654321, 'carlos.silva@hotmail.com');
+
+	INSERT INTO `Exame_PI_Guilherme`.`Clientes` (`id_cliente`, `nome`, `endereco`, `telefone`, `email`) VALUES (2, 'Ana Santos', 'Avenida dos Sonhos', 912345678, 'ana.santos@hotmail.com');
+
+	INSERT INTO `Exame_PI_Guilherme`.`Clientes` (`id_cliente`, `nome`, `endereco`, `telefone`, `email`) VALUES (3, 'Felipe Oliveira', 'Travessa das Estrelas', 923456789, 'felipe.oliveira@hotmail.com');
+
+	INSERT INTO `Exame_PI_Guilherme`.`Clientes` (`id_cliente`, `nome`, `endereco`, `telefone`, `email`) VALUES (4, 'Gabriela Souza', 'Rua das Palmeiras', 934567890, 'gabriela.souza@hotmail.com');
+
+	INSERT INTO `Exame_PI_Guilherme`.`Clientes` (`id_cliente`, `nome`, `endereco`, `telefone`, `email`) VALUES (5, 'Thiago Santos', 'Avenida das Águas', 945678901, 'thiago.santos@hotmail.com');
+
+	INSERT INTO `Exame_PI_Guilherme`.`Clientes` (`id_cliente`, `nome`, `endereco`, `telefone`, `email`) VALUES (6, 'Maria Lima', 'Rua das Oliveiras', 956789012, 'maria.lima@hotmail.com');
+
+	INSERT INTO `Exame_PI_Guilherme`.`Clientes` (`id_cliente`, `nome`, `endereco`, `telefone`, `email`) VALUES (7, 'Lucas Fernandes', 'Avenida dos Coqueiros', 967890123, 'lucas.fernandes@hotmail.com');
+
+	INSERT INTO `Exame_PI_Guilherme`.`Clientes` (`id_cliente`, `nome`, `endereco`, `telefone`, `email`) VALUES (8, 'Beatriz Santos', 'Rua das Flores', 978901234, 'beatriz.santos@hotmail.com');
+
+	INSERT INTO `Exame_PI_Guilherme`.`Clientes` (`id_cliente`, `nome`, `endereco`, `telefone`, `email`) VALUES (9, 'Pedro Almeida', 'Avenida dos Sonhos', 990123456, 'pedro.almeida@hotmail.com');
+
+	INSERT INTO `Exame_PI_Guilherme`.`Clientes` (`id_cliente`, `nome`, `endereco`, `telefone`, `email`) VALUES (10, 'Laura Barbosa', 'Rua das Palmeiras', 901234567, 'laura.barbosa@hotmail.com');
+
+
+
+
+Inserindo os Produtos:
+
+	INSERT INTO `Exame_PI_Guilherme`.`Produtos` (`id_produto`, `nome`, `preco`, `descricao`) VALUES (1, 'Ração Premium', 59.900000, 'Ração premium de alta qualidade');
